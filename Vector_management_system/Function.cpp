@@ -122,8 +122,6 @@ void Modify(std::vector<Text>& vec, Text& vectors)
 	{
 		if (message.id == id)
 		{
-			std::cout << Blank(4) << std::left << std::setw(24) << message.name << std::left << std::setw(24) << message.id
-				<< std::left << std::setw(24) << message.wages << std::endl << std::endl;
 			std::cout << Blank(4) << std::left << std::setw(24) << message.name << std::setw(24) << message.id
 				<< std::setw(24) << message.wages << std::endl << std::endl;
 			std::cout << Blank(4) << "是否修改匹配数据?\t\t\ty[Y]/n[N]" << std::endl << std::endl << Blank(6) << "     请选择:";
